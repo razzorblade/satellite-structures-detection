@@ -2,6 +2,11 @@
 
 Satellite Structures Detector is a DeepLabV3+-based neural network pipeline for detecting buildings and man-made structures in satellite imagery. Designed for small-to-medium custom datasets generated from Google Static Maps or similar raster sources. Fast prototyping with manual masks, easy fine-tuning, and simple inference ready for real-world applications.
 
+![alt text](assets/img/mask_example.png "")
+
+### Warning
+This is work in progress and was trained only at about 50 tiles. I am currently manually tagging structures on raster map images. If you would like to help, let me know!
+
 ---
 
 ## Installation
