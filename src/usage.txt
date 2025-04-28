@@ -1,0 +1,5 @@
+python utils/crop_tiles.py --input_dir temp/shots --output_dir dataset/images
+
+python utils/generate_blank_masks.py --input_dir path/to/your/images --output_dir path/to/your/masks
+
+python inference.py --weights deeplabv3plus_building.pth --input test_tile.png --output test_mask.png

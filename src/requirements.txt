@@ -1,0 +1,8 @@
+# Core
+torch>=2.0
+torchvision
+segmentation-models-pytorch
+albumentations
+tqdm
+opencv-python
+six
